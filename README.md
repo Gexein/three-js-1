@@ -6,15 +6,17 @@
 
 <ul>
 <li>Создаете файл vite.config.local.ts</li>
-<li>Содержание этого файла: `import { defineConfig } from "vite";
+<li>Содержание этого файла: 
 
-export default defineConfig({
+<div>import { defineConfig } from "vite";</div>
+
+<div>export default defineConfig({
 server: {
 host: желаемый хост,
 port: желаемый порт,
 open: true, // опционально
 },
-});
-`</li>
-
+}); </div>
+</li>
+<li>Запуск: npm start</li>
 </ul>

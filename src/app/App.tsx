@@ -2,9 +2,9 @@ import { OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 
-useGLTF.preload("/models/shaurma.glb");
+useGLTF.preload("/3dmodels/untitled.glb");
 function App() {
-	const { scene } = useGLTF("../../public/3dmodels/untitled.glb");
+	const { scene } = useGLTF("/3dmodels/untitled.glb");
 
 	return (
 		<>
